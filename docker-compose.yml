@@ -10,7 +10,7 @@ services:
       - HIDE_FOLDERS=docs,private,trash
       - LINE_BREAKS=true
     volumes:
-      - ./perlite/Demo:/var/www/perlite/Demo:ro
+      - ./perlite/Demo:/Users/star/workspace/Blog/Perlite/perlite/Demo:ro
 
   web:
     build:
